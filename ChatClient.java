@@ -30,9 +30,6 @@ final class ChatClient {
      */
     private boolean start() {
         // Create a socket
-        System.out.println("YAY");
-        System.out.println("YAY AGAIN");
-
         try {
             socket = new Socket(server, port);
         } catch (IOException e) {
